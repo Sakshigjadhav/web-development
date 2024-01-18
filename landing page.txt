@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>online store</title>
+        <title>information about your Bird</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -11,33 +11,33 @@
       <body>
         <section>
           <div class="container">
-           
-              <div class="searchbar">
-                <input type="text" placeholder="search">
-             </div>
-             <nav>
+            <nav>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Service</a></li>
                     <li><a href="">Contact</a></li>
                 </ul></h1>
             </nav>
             <div class="article">
-                <h1>Stylish Shoes For You!</h1>
-                
-                <p>We ar making design for Everyone<br>
-                Make Your Life, Show your moment and Take your pictures. </p>
-                <a href="" class="btn">Buy Now</a>
+                <h1>Welcome Bird Lovers!</h1>
+                <div class="box">
+                   <input type="text" placeholder="Search">
+                </div>
+                <p>Use our Bird Guide to identify birds,<br>
+                learn about the life history, know about the diet. </p>
+                <a href="" class="btn">Buy a Guide Book</a>
             </div>
         </section>
       </body>
 
 
 
+
 <css code>
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
   *{
     margin:0px;
     padding: 0px;
@@ -46,7 +46,7 @@
   }
   section{
     min-height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(img.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(img.png);
     background-repeat: no-repeat;
     background-size:cover ;
   }
@@ -66,22 +66,21 @@
     padding: 0px 5px;
   }
   nav ul li a{
-    color: #fff;
+    color: black;
     text-decoration: none;
     text-transform:capitalize ;
-    border-radius: 2px;
-    padding: 5px 5px;
+    border-radius: 3px;
+    padding: 5px 6px;
   }
   nav ul li a:hover{
-    background-color: gold;
+    background-color: #eb7620;
     transition: 0.5s ease;
   }
-  .searchbar{
-   width: 100%;
+  .box{
+    width: 100%;
     margin: auto;
     text-align: center;
-    transform: translateY(30vh);
-    
+    transform: translateY(25vh);
   }
   .article{
     width: 50%;
@@ -90,7 +89,7 @@
     transform: translateY(25vh);
   }
   .article h1{
-    font-size: 40px;
+    font-size: 36px;
     color:white;
     letter-spacing: 1.5px;
     font-weight: 800;
@@ -108,13 +107,12 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: green;
+    background-color: #f15048;
   }
   .article .btn:hover{
-    background-color: rgb(51, 141, 105);
+    background-color: #4399fa;
     transition: 0.5s ease;
   }
 
 
   
- 
